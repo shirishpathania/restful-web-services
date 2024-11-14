@@ -12,11 +12,6 @@ import java.util.Locale;
 @RestController
 public class HelloWorldController {
 
-//    @RequestMapping(method = RequestMethod.GET, path = "/hello-world")
-//    public String helloWorld() {
-//        return "Hello World";
-//    }
-
     private MessageSource messageSource;
 
     public HelloWorldController(MessageSource messageSource) {
